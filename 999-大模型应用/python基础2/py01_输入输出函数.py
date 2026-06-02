@@ -25,6 +25,7 @@
 # """
 # <class 'str'>
 # Traceback (most recent call last):
+#   File "D:\code\PythonDemo\251023\py01_输入输出函数.py", line 21, in <module>
 #     number2 = int(number)
 #               ^^^^^^^^^^^
 # ValueError: invalid literal for int() with base 10: '我爱你'
