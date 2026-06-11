@@ -3,6 +3,7 @@
 
 # IDE
 .idea/
+.vscode/
 
 # Python
 __pycache__/
@@ -25,3 +26,48 @@ env/
 
 # Environment variables
 .env
+
+# ========================
+# Model files (too large for GitHub)
+# ========================
+*.pkl
+*.pth
+*.pt
+*.bin
+*.onnx
+*.safetensors
+**/save_model/
+
+# ========================
+# Large data files
+# ========================
+# Wikipedia corpus
+**/data/fil9
+**/data/gz03ag
+
+# Font files
+*.ttf
+*.otf
+
+# Large processed data (intermediate artifacts)
+**/data/process_train_data.csv
+**/data/process_test_data.csv
+**/data/process_dev_data.csv
+**/data/process_char_train.txt
+**/data/process_char_test.txt
+**/data/process_char_dev.txt
+**/data/process_word_train.txt
+**/data/process_word_test.txt
+**/data/process_word_dev.txt
+
+# TMF raw training data (too large)
+5-投满分文本分类任务项目/TMF/00-data/data/train.txt
+
+# TensorBoard logs
+**/runs/
+
+# ========================
+# Misc
+# ========================
+*.log
+nohup.out
