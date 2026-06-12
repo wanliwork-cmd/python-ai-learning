@@ -13,6 +13,7 @@ def demo01():
     print(words)
 
     # 了解：不带l的cut返回结果是generator生成器
+    # generator: 生成器  什么是生成器:
     result = jieba.cut(content)
     print(result)
     print(type(result))
